@@ -531,4 +531,47 @@ span{
     .services-container{
         grid-template-columns: repeat(1.1fr);
     }
+        @media(max-width:440px){
+        #menu-icon{
+            display: block;
+        }
+        .services-container{
+            display: block;
+        }
+        .service-box{
+            background-color: var(--main-color);
+            color: black;
+            height: 190px;
+            border-radius: 3rem;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            margin: 10px;
+        }
+        .service-info p{
+            font-size: 1.6rem;
+            font-weight: 400;
+            max-height: 100px;
+            margin: auto;
+            overflow-x: hidden;
+            overflow-y: scroll;
+    }
+    .contact form {
+        min-width: 46rem;
+        margin: 1rem auto;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+        .about-img img {
+            position: relative;
+            width: 31vw;
+            border-radius: 50%;
+            box-shadow: 0 0 25px var(--main-color);
+            top: 10rem;
+            cursor: pointer;
+            transition: 0.4s ease-in-out;
+            right: 9rem;
+    
+    }
+}
 }
